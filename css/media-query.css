@@ -1,10 +1,16 @@
+/* MOBILE */
 @media screen and (max-width: 420px){
+
   .row {
     max-width: 100%;
   }
 
   .row img {
     max-width: 100%;
+  }
+
+  img{
+    height: 150px;
   }
 
   #steps .row > .left,
@@ -18,5 +24,40 @@
     margin-bottom: 20px;
   }
 
+
+}
+
+/* TABLET */
+@media all and (min-width: 421px) and (max-width: 768px){
+  img {
+  height: 150px;
+  width: auto;
+ }
+
+  hr{
+    display: none;
+  }
+
+  .central,.left,.right{
+    margin-top: 25px;
+  }
+
+  .row{
+      width: 100%;
+      margin: auto;
+      font-size: 20px;
+   }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+      width: 50%;
+   }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  float: none;
+  width: 100%;
+  }
 
 }
